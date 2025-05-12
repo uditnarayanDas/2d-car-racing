@@ -1,0 +1,22 @@
+<!-- game.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>3 Lane Racing</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="gameCanvas" width="360" height="640"></canvas>
+
+  <div id="gameOverMenu">
+    <h2>Game Over</h2>
+    <p id="finalStats"></p>
+    <button onclick="retryGame()">Retry</button>
+    <button onclick="goHome()">Home</button>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>

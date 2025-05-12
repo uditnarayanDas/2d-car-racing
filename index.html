@@ -1,0 +1,44 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Racing Game - Start</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body class="menu">
+  <div class="header-left"> Racing Game</div>
+  
+  <div class="menu-container">
+    <!-- <h1>🏎️ 3-Lane Racing</h1> -->
+    <input type="text" id="playerName" placeholder="Enter your name" />
+    <button onclick="startGame()">Start Game</button>
+  </div>
+    
+  
+
+  <nav class="menu-bar">
+  
+    <div class="dropdown">
+      <button onclick="location.href='index.html'">Home</button>
+      <button onclick="location.href='game.html'">Play</button>
+      <button onclick="alert('Credits: You')">Credits</button>
+    </div>
+  </nav>
+
+  <div class="emoji-container"></div>
+
+  <script>
+    function startGame() {
+      const name = document.getElementById("playerName").value.trim();
+      if (!name) return alert("Please enter your name.");
+      localStorage.setItem("playerName", name);
+      window.location.href = "game.html";
+    }
+
+  </script>
+</body>
+</html>
