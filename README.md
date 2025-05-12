@@ -26,5 +26,4 @@ Use ← and → to switch lanes and avoid other cars.
 
 Try to survive as long as you can. Speed increases every 1 km.
 
-🌐 Social Links
-🐱 GitHub | 💼 LinkedIn | 🐦 Twitter
+You can simply start playing :- https://uditnarayandas.github.io/2d-car-racing/
