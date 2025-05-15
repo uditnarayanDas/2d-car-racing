@@ -11,10 +11,10 @@
 
  }
 :root {
-    --bg-color:#1f242d;
+    --bg-color:#222831;
     --second-bg-color:#323946;
-    --text-color:#fff;
-    --main-color:#0ef; 
+    --text-color:#000000;
+    --main-color:rgb(28, 70, 73); 
  }
 .header{
     position: fixed;
@@ -31,8 +31,8 @@
  }
 
 body{
-    background: var(--bg-color);
-    color: var(--text-color);
+    background: url('3226135.jpg') no-repeat center center/cover;
+    background-image: blur(5px);
  }
 
 .header-left {
@@ -41,8 +41,8 @@ body{
   left: 20px;
   font-size: 1.4em;
   font-weight: bold;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.6);
+  color: rgb(246, 246, 246);
+  /* background-color: rgba(56, 74, 137, 0.6); */
   padding: 8px 14px;
   border-radius: 8px;
   z-index: 1000;
@@ -53,7 +53,7 @@ body{
 
 canvas {
   border: 2px solid #fff;
-  background-color: black;
+  background-color: rgb(43, 28, 28);
 }
 \.social-buttons {
   position: fixed;
@@ -67,16 +67,16 @@ canvas {
 .social-btn {
   font-size: 1.8rem;
   color: white;
-  background: #333;
+  background: #077A7D;
   padding: 10px;
   border-radius: 50%;
   text-decoration: none;
   transition: background 0.3s;
 }
 
-.social-btn:hover {
+/* .social-btn:hover {
   background: #555;
-}
+} */
 
 
 .menu-bar {
@@ -89,7 +89,7 @@ canvas {
 }
 
 .menu-bar button {
-  background-color: #444;
+  background-color: #077A7D;
   color: white;
   border: none;
   padding: 8px 14px;
@@ -126,7 +126,7 @@ canvas {
 
 button {
   padding: 10px 20px;
-  background: #00cc66;
+  background: #01130a;
   color: white;
   border: none;
   border-radius: 10px;
@@ -147,7 +147,7 @@ button:hover {
   top: 30%;
   width: 100%;
   text-align: center;
-  background: rgba(0, 0, 0, 0.8);
+  background:#948979;
   color: white;
 }
 
@@ -160,7 +160,7 @@ button:hover {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  background-color: rgba(187, 216, 113, 0.7); /* Semi-transparent background */
   justify-content: center;
   align-items: center;
 }
@@ -190,33 +190,6 @@ button:hover {
 .close:hover {
   color: #ccc;
 }
-/* .emoji-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  z-index: 0;
-  overflow: hidden;
+body::-webkit-scrollbar {
+  display: none;
 }
-
-.emoji {
-  position: absolute;
-  font-size: 2rem;
-  animation: fall linear infinite;
-  opacity: 0.8;
-}
-
-@keyframes fall {
-  0% {
-    transform: translateY(-100px);
-  }
-  100% {
-    transform: translateY(110vh);
-  }
-}
-.emoji:nth-child(1) {
-  animation-duration: 3s;
-  left: 10%;
-} */
