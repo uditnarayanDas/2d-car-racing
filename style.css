@@ -54,6 +54,7 @@ body{
 canvas {
   border: 2px solid #fff;
   background-color: rgb(43, 28, 28);
+  position: fixed;
 }
 \.social-buttons {
   position: fixed;
